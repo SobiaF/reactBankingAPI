@@ -1,6 +1,6 @@
 import React from 'react'
 import './main.css'
-import Allbankaccounts from './Allbankaccounts'
+import Showbankaccounts from './Showbankaccounts'
 
 class Main extends React.Component {
     constructor(props) {
