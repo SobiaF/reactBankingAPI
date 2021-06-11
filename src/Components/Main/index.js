@@ -1,6 +1,5 @@
 import React from 'react'
 import './main.css'
-import Showbankaccounts from './Showbankaccounts'
 
 class Main extends React.Component {
     constructor(props) {
@@ -9,7 +8,7 @@ class Main extends React.Component {
 
     render() {
         return (
-            <h1>Banking API React - In the making</h1>
+            <h3>View accounts, add, delete, transfer and withdraw accounts</h3>
         )
     }
 }

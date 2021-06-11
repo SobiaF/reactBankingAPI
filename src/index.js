@@ -2,12 +2,14 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
+import Header from "./Components/Header";
 
 import Main from './Components/Main'
 
 
 ReactDOM.render(
     <div>
+        <Header />
         <Main />
     </div>
     ,
